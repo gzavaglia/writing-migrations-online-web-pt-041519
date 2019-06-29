@@ -1,5 +1,5 @@
 class ChangeDatatypeforBirthdate < ActiveRecord::Migration[5.1]
   def change
-    change_column(artists, birthdate, datetime)
+    change_column(students, birthdate, datetime)
   end
 end
